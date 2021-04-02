@@ -26,7 +26,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEDUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['freeman',  '192.168.90.230', 'https://freemankg.herokuapp.com/']
+ALLOWED_HOSTS = ['freemankg.herokuapp.com', 'localhost']
 
 
 # Application definition
